@@ -2,15 +2,15 @@
 
 int main()
 {
-    int i = 10;
+	int i = 10;
 
-    int size = sizeof(i++);
-    printf("i = %d\n", i);
+	int size = sizeof(i++);
+	printf("i = %d\n", i);
 
 	i++;
 	printf("i = %d\n", i);
 
-    return (0);
+	return (0);
 }
 
 /* Question
